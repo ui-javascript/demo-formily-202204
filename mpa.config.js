@@ -7,5 +7,7 @@ exports.CONFIG = {
   // entry: './_form-render/*.js',
   // entry: './_form-render/**/{index,form}*.js',
 
-  entry: './_table-render/*.js',
+  // entry: './_table-render/*.js',
+
+  entry: './_formily/*.js',
 }
