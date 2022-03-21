@@ -46,7 +46,7 @@
   resolved "https://registry.npmmirror.com/@ant-design/icons-svg/-/icons-svg-4.2.1.tgz#8630da8eb4471a4aabdaed7d1ff6a97dcb2cf05a"
   integrity sha512-EB0iwlKDGpG93hW8f85CTJTs4SvMX7tt5ceupvhALp1IF44SeUFOMhKUOYqpsoYWQKAOuTRDMqn75rEaKDp0Xw==
 
-"@ant-design/icons@^4.0.0", "@ant-design/icons@^4.0.2", "@ant-design/icons@^4.3.0", "@ant-design/icons@^4.7.0":
+"@ant-design/icons@^4.0.0", "@ant-design/icons@^4.0.2", "@ant-design/icons@^4.2.2", "@ant-design/icons@^4.3.0", "@ant-design/icons@^4.7.0":
   version "4.7.0"
   resolved "https://registry.npmmirror.com/@ant-design/icons/-/icons-4.7.0.tgz#8c3cbe0a556ba92af5dc7d1e70c0b25b5179af0f"
   integrity sha512-aoB4Z7JA431rt6d4u+8xcNPPCrdufSRMUOpxa1ab6mz1JCQZOEVolj2WVs/tDFmN62zzK30mNelEsprLYsSF3g==
@@ -2830,7 +2830,7 @@ date-fns@2.x:
   resolved "https://registry.npmmirror.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-dayjs@1.x:
+dayjs@1.x, dayjs@^1.8.29:
   version "1.11.0"
   resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.0.tgz#009bf7ef2e2ea2d5db2e6583d2d39a4b5061e805"
   integrity sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==
@@ -3811,7 +3811,7 @@ fork-ts-checker-webpack-plugin@^5.0.5:
     semver "^7.3.2"
     tapable "^1.0.0"
 
-form-render@^1.9.5:
+form-render@1.x, form-render@^1.9.5:
   version "1.9.5"
   resolved "https://registry.yarnpkg.com/form-render/-/form-render-1.9.5.tgz#fa9ba69578ffd72c6b8c2b3aa8bbfd5c38299d6a"
   integrity sha512-v7+C0PISlL1vr90wJekiwWHTP7fDMMW1ArkphqtMNKYZKLqXp2MT6sVmUFqxtz9wc5tNG3dqj44nuAH7zZRC3Q==
@@ -4913,6 +4913,11 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.npmmirror.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
+
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
 
 lodash.isequal@^4.5.0:
   version "4.5.0"
@@ -7471,6 +7476,16 @@ systemjs@^6.12.1:
   version "6.12.1"
   resolved "https://registry.npmmirror.com/systemjs/-/systemjs-6.12.1.tgz#47cdd23a6ec9f1b01cf5b5f70562c8550da229d3"
   integrity sha512-hqTN6kW+pN6/qro6G9OZ7ceDQOcYno020zBQKpZQLsJhYTDMCMNfXi/Y8duF5iW+4WWZr42ry0MMkcRGpbwG2A==
+
+table-render@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/table-render/-/table-render-1.2.5.tgz#198b641989c7ed0842a4c7cd2c847ea7d6508ab8"
+  integrity sha512-WNUJ6FeTUPzrhEsgEKbiviXOpGEaAG0f9t1ejvM02cUG9CXEULgZc8HNhzxuChf55uph/jv0TgMugc/vsoY85w==
+  dependencies:
+    "@ant-design/icons" "^4.2.2"
+    dayjs "^1.8.29"
+    form-render "1.x"
+    lodash.get "^4.4.2"
 
 table@^6.0.9, table@^6.6.0:
   version "6.8.0"
