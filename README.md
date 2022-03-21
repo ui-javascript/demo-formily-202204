@@ -1,3 +1,4 @@
 # README
 
-- 不要启动vite模式
+- @code https://github.com/ui-javascript/demo-formily-xrender-202204
+- @demo https://ui-javascript.github.io/demo-formily-xrender-202204/
